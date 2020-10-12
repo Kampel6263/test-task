@@ -194,8 +194,15 @@ const closeModal = () => {
 }
 
 //-------------------------------------------------
+//5.так же нужно сделать так, чтобы кликая в браузере на стрелку «назад» ,
+// пользователя перекидывало на сайт  https://www.google.com/
+// I don`t found other way out, if you know say me pls =)
 
-// history.pushState(null, null, 'https://www.google.com');
-window.addEventListener('popstate', function () {
-    history.pushState(null, null, 'https://www.google.com');
-});
+window.onpopstate = function(event) {
+    window.location.href = "https://google.com/";
+};
+
+// history.pushState(null, null, '<?php echo $_SERVER["REQUEST_URI"]; ?>');
+// window.addEventListener('popstate', function(event) {
+//     window.location.assign("http://www.yoururl.com/");
+// });
