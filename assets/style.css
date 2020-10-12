@@ -1,243 +1,246 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 
 .background {
-    width: 100%;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    background: url("./images/bg-barilla.jpg") no-repeat;
-    background-size: cover;
-    position: fixed;
-    z-index: -1;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: url("./images/bg-barilla.jpg") no-repeat;
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
 }
 
 .container {
-    max-width: 875px;
-    width: 90%;
-    margin: 1em auto;
-    background: rgba(255, 255, 255, 0.7);
-    border: 2px solid #fff;
-    border-radius: .7em;
-    text-align: center;
+  max-width: 875px;
+  width: 90%;
+  margin: 1em auto;
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid #fff;
+  border-radius: .7em;
+  text-align: center;
 }
 
 .headline {
-    background-color: #F01A18;
-    border-radius: .7em .7em 0 0;
+  background-color: #F01A18;
+  border-radius: .7em .7em 0 0;
 }
 
 h1 {
-    margin: 0;
-    padding: 8px 0 15px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 1.7rem;
-    font-style: italic;
+  margin: 0;
+  padding: 8px 0 15px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.7rem;
+  font-style: italic;
 }
 
 .image {
-    width: 83.333%;
-    margin: 35px auto 10px;
+  width: 83.333%;
+  margin: 35px auto 10px;
 
 }
 
 .image img {
-    width: 100%;
+  width: 100%;
 }
 
 h2 {
-    color: #363636;
-    font-weight: 300;
-    font-size: 1.5em;
-    margin: 20px 0;
+  color: #363636;
+  font-weight: 300;
+  font-size: 1.5em;
+  margin: 20px 0;
 }
 
 .choose__block {
-    display: flex;
-    width: 83.333%;
-    margin: 0 auto;
-    justify-content: space-between;
+  display: flex;
+  width: 83.333%;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 
 .choose__block button {
-    width: 49%;
-    padding: 10px 0;
-    font-size: 0.9rem;
-    border-radius: .4rem;
-    border: 1px solid #1779ba;
-    color: #1779ba;
-    font-weight: bold;
-    background: none;
-    outline: none;
-    transition: .35s ease-in-out;
-    cursor: pointer;
+  width: 49%;
+  padding: 10px 0;
+  font-size: 0.9rem;
+  border-radius: .4rem;
+  border: 1px solid #1779ba;
+  color: #1779ba;
+  font-weight: bold;
+  background: none;
+  outline: none;
+  transition: .35s ease-in-out;
+  cursor: pointer;
 }
 
 .choose__block button.active {
-    background-color: #1779ba;
-    color: #fff;
+  background-color: #1779ba;
+  color: #fff;
 }
 
 .choose__block button.active:hover {
-    color: #fff;
+  color: #fff;
 }
 
 .choose__block button:hover {
-    color: #0d1c67;
-    border-color: #0d1c67;
+  color: #0d1c67;
+  border-color: #0d1c67;
 }
 
 /*form*/
 
 input {
-    border: none;
-    background: none;
-    border-bottom: 1px solid #0d1c67;
-    outline: none;
-    color: #fff;
-    font-size: 16px;
-    transition: .4s linear;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #0d1c67;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  transition: .4s linear;
 }
 
 .name__cognome__input {
-    width: 49%;
-    position: relative;
-    text-align: left;
+  width: 49%;
+  position: relative;
+  text-align: left;
 }
 
 label {
-    position: absolute;
-    transition: all 0.2s ease;
-    font-size: 16px;
+  position: absolute;
+  transition: all 0.2s ease;
+  font-size: 16px;
 
 }
 
 .form span {
-    font-size: 0.75rem;
-    color: #c71414;
+  font-size: 0.75rem;
+  color: #c71414;
 }
 
 .first__inputs {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin: 30px auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
 }
 
 .first__inputs input {
-    width: 100%;
+  width: 100%;
 }
 
 .second__inputs {
-    margin: 0 auto;
-    text-align: left;
+  margin: 0 auto;
+  text-align: left;
 }
 
 .second__inputs input {
-    width: 100%;
+  width: 100%;
 }
 
 form {
-    text-align: left;
-    width: 83.333%;
-    margin: 0 auto;
+  text-align: left;
+  width: 83.333%;
+  margin: 0 auto;
 }
 
 h3 {
-    font-weight: bold;
-    font-size: 0.9rem;
+  font-weight: bold;
+  font-size: 0.9rem;
 }
 
 .select__items {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 select {
-    outline: none;
-    width: 33%;
-    border: none;
-    border-bottom: 1px #000 solid;
-    background: none;
-    padding: 3px 10px;
+  outline: none;
+  width: 33%;
+  border: none;
+  border-bottom: 1px #000 solid;
+  background: none;
+  padding: 3px 10px;
 }
 
 option {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 form button {
-    width: 100%;
-    outline: none;
-    background: #F01A18;
-    border: none;
-    border-radius: .4rem;
-    padding: 0.75em 0;
-    margin-top: 20px;
-    transition: background-color 0.25s ease-out, color 0.5s ease-out;
-    margin-bottom: 1rem;
-    color: #fff;
-    font-weight: bold;
-    font-size: 1.25rem;
+  width: 100%;
+  outline: none;
+  background: #F01A18;
+  border: none;
+  border-radius: .4rem;
+  padding: 0.75em 0;
+  margin-top: 20px;
+  transition: background-color 0.25s ease-out, color 0.5s ease-out;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.25rem;
 }
 
 form button:hover {
-    background-color: #0d1c67;
+  background-color: #0d1c67;
 }
 
 p {
-    font-size: .6em;
-    width: 83.333%;
-    margin: 0 auto 1rem;
+  font-size: .6em;
+  width: 83.333%;
+  margin: 0 auto 1rem;
 }
 
-.container a {
-    font-size: .6em;
+.container .modal__link {
+  font-size: .6em;
+  border: none;
+  background: none;
+
 }
 
 .container .span {
-    color: black;
-    font-size: .6em;
+  color: black;
+  font-size: .6em;
 }
 
 /*------------------*/
 
 #modal {
-    display: none;
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    z-index: 100;
-    top: 0;
-    left: 0;
-    background: #fff;
+  display: none;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background: #fff;
 }
 
 #modal__button {
-    border-radius: 0;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    font-size: 1.6em;
-    text-align: center;
-    cursor: pointer;
-    margin-bottom: 0;
-    padding: 0.85em 1em;
-    border: none;
-    outline: none;
-    background-color: #F01A18;
-    color: #fff;
-    font-weight: bold;
-    transition: .3s ease-in-out;
+  border-radius: 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 1.6em;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 0;
+  padding: 0.85em 1em;
+  border: none;
+  outline: none;
+  background-color: #F01A18;
+  color: #fff;
+  font-weight: bold;
+  transition: .3s ease-in-out;
 }
 
 #modal__button:hover{
-    background: #0d1c67;
+  background: #0d1c67;
 }
 
