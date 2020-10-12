@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Barilla</title>
+</head>
+<body>
+
+
+
+<div class="background"></div>
+
+<div id="container" class="container">
+    <div class="headline">
+        <h1>Vinci una fornitura <br>
+            di pasta Barilla gratis per un anno!</h1>
+    </div>
+    <div class="image">
+        <img src="./assets/images/img-barilla.png" alt="">
+    </div>
+    <h2>Dove vuoi ricevere la tua fornitura?</h2>
+
+    <div class="choose__block">
+        <button onClick="uomoActive()" id="button__uomo">UOMO</button>
+        <button onClick="donnaActive()" id="button__donna">DONNA</button>
+    </div>
+
+    <form class="form">
+        <div class="first__inputs">
+            <div class="name__cognome__input">
+                <label id="name__label" for="name">Nome</label>
+                <input onblur="onBlur(id)" onkeyup="validControl(id)" id="name"  type="text">
+                <span id="name__span"></span>
+            </div>
+            <div class="name__cognome__input">
+                <label id="cognome__label" for="cognome">Cognome</label>
+                <input onblur="onBlur(id)" onkeyup="validControl(id)" id="cognome" type="text">
+                <span id="cognome__span"></span>
+            </div>
+
+        </div>
+        <div class="second__inputs">
+            <label id="email__label" for="email">Email</label>
+            <input onblur="onBlur(id)" onkeyup="validControl(id)" id="email" type="text">
+            <span id="email__span"></span>
+        </div>
+
+        <h3>Data di nascita</h3>
+
+        <div class="select__items">
+            <select name="" id="select1"></select>
+            <select name="" id="select2"></select>
+            <select name="" id="select3"></select>
+
+        </div>
+        <button id="button__submit" onclicl="">PARTECIPAZIONE 100% GRATUITA</button>
+    </form>
+
+</div>
+
+<div class="container">
+    <p>© Giorno Unico - Partecipazione gratuita. CONCORSO A PREMI con periodo di partecipazione dal 15 dicembre 2019 al 26 novembre 2020. REALIZZATO IN CONFORMITÀ CON QUANTO PREVISTO DAL DPR 430/2001 - L'estrazione è garantita da Naturvel PTE LTD. Solo gli utenti che compilano interamente e correttamente il modulo partecipano all'estrazione. Premio: un buono Idea Shopping del valore di 1000 euro iva esclusa - montepremi complessivo del concorso è pari a 1000 Euro iva esclusa. In alternativa al buono “IdeaShopping”, l’utente vincitore può scegliere di ricevere un voucher di una compagnia aerea o ferroviaria selezionata dal Promotore.</p>
+    <a id="a1" href="#">Regolamento</a> <span class="span">│</span>
+    <a id="a2" href="#"> Privacy</a><span class="span">│</span>
+    <a id="a3" href="#">Contatto</a>
+</div>
+
+<div id="modal">
+    <div class="text">
+        <div id="text1">text111</div>
+        <div id="text2">text222</div>
+        <div id="text3">text333</div>
+        <button onClick="closeModal()" id="modal__button">CHIUDI FINESTRA</button>
+    </div>
+</div>
+
+<script src="./assets/script.js"></script>
+</body>
+</html>
